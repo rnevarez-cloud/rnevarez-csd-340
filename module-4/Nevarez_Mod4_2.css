@@ -1,0 +1,52 @@
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #4f3674;
+    text-decoration: none;
+}
+
+address > a {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #D6A800;
+}
+
+a:visited {
+    color: gray;
+}
+
+h1, h3, figure {
+    text-align: center;
+}
+
+h1, h3, figcaption {
+    color: #4f3674;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.last {
+    margin-top: 20%;
+    float: right;
+    margin-bottom: 20px;
+}
