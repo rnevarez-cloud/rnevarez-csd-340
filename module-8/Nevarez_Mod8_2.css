@@ -1,0 +1,113 @@
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    background-color: #332C23;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color:#9F87AF;
+    border-bottom: 15px solid #88527F;
+}
+
+#navbar > a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar > a:hover {
+    background-color: #614344;
+    color: white;
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #332C23;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card-content a:visited{
+    color: #88527F;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #332C23;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.left {
+    float: left;
+}
