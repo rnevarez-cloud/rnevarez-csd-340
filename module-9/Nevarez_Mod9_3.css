@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Soloist3D";
+    src: url(soloist3d.ttf);
+}
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    background-image: url(opening_crawl.png);
+    color: #FFE81F;
+    font-family: Soloist3D;
+}
+
+a {
+    color: #4f3674;
+    text-decoration: none;
+}
+
+address > a {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #D6A800;
+}
+
+a:visited {
+    color: gray;
+}
+
+.last {
+    margin-top: 20%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#script {
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 3em;
+}
+
+#buttons {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+
+button {
+    background-color:#FFE81F;
+    border-radius: 50%;
+    padding: 2%;
+    font-family: Soloist3D;
+    font-weight: bold;
+    font-size: .75em;
+}
