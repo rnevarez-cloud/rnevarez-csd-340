@@ -9,6 +9,7 @@ html, body {
     background-image: url(opening_crawl.png);
     color: #FFE81F;
     font-family: Soloist3D;
+    text-align: center;
 }
 
 a {
@@ -37,7 +38,6 @@ a:visited {
 }
 
 #script {
-    text-align: center;
     max-width: 50%;
     margin: auto;
     padding-bottom: 3em;
