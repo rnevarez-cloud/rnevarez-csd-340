@@ -1,0 +1,51 @@
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: auto;
+    max-width: 70%;
+    background-color: #FDFFF7;
+}
+
+h1 {
+    color: #50514F;
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    background-color: #50514F;
+}
+
+input, button {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    width: 100%;
+}
+
+button, li {
+    margin-bottom: .5em;
+}
+
+button:hover {
+    background-color: #63A46C;
+    color: #FDFFF7;
+    cursor: pointer;
+}
+
+#delete:hover {
+    background-color: #E85F5C;
+    color: #FDFFF7;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+ul:has(:nth-child(1)) {
+    background-color: #63A46C;
+    color: #FDFFF7;
+    border-radius: 1em;
+    padding: 1em;
+    list-style-position: inside;
+}
