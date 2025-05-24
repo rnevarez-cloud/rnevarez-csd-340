@@ -1,0 +1,70 @@
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #4f3674;
+    text-decoration: none;
+}
+
+address > a {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #D6A800;
+}
+
+a:visited {
+    color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.left, .right {
+    width: 45%;
+    border: 1px red;
+    border-radius: 15px;
+}
+
+.left {
+    float: left;
+    border-style: solid;
+}
+
+.right {
+    float: right;
+    border-style: dashed;
+}
+
+.full {
+    width: 100%;
+}
+
+.last {
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 300;
+    list-style-position: inside;
+}
+
+ol, ul, p, h3 {
+    padding: 10px;
+}
+
+ul {
+    list-style: upper-roman;
+}
